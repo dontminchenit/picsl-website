@@ -464,12 +464,28 @@
   <section class="background" data-size="page">
     <h1 id="histolozee">HistoloZee</h1>
 
-<h1 id="histolozee-1">HistoloZee</h1>
+<figure class="figure">
+  <a class="figure-image" aria-label="Loading an MRI reference image with a reconstructed histology stack of the human hippocampal formation.">
+    <img src="/picsl-website/images/wp/2014/04/HZee01-1024x577.jpg" style="
+        width: 80%;
+        max-height: unset;
+      " alt="Loading an MRI reference image with a reconstructed histology stack of the human hippocampal formation." loading="lazy" onerror="this.src = '/picsl-website/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      Loading an MRI reference image with a reconstructed histology stack of the human hippocampal formation.
 
-<p><em>HistoloZee</em> is a tool that integrates histology reconstruction, MRI co-registration, and manual segmentation tools in an easy-to-use and intuitive interface. HistoloZee permits real-time interaction with complex and large (multi-GB) histology datasets during the co-registration steps of histology reconstruction.
-HistoloZee was developed by <a href="/picsl-website/members/daniel-adler.html" title="Daniel Adler">Daniel Adler</a> under the supervision of <a href="/picsl-website/members/paul-yushkevich.html" title="Paul Yushkevich">Paul Yushkevich</a>. Please <a href="mailto:histolozee@gmail.com">contact us</a> to request a pre-distribution copy of the software. HistoloZee is under active development and the release (v.03) currently run under Mac OS X (&gt;10.6), with Linux and Windows versions forthcoming.
- 
-<strong>Basic reconstruction procedure for a stack of histology slides with accompanying reference imaging data (e.g. MRI):</strong></p>
+    </figcaption>
+  
+</figure>
+
+<p><em>HistoloZee</em> is a tool that integrates histology reconstruction, MRI co-registration, and manual segmentation tools in an easy-to-use and intuitive interface. HistoloZee permits real-time interaction with complex and large (multi-GB) histology datasets during the co-registration steps of histology reconstruction.</p>
+
+<p>HistoloZee was developed by <a href="/picsl-website/members/daniel-adler.html" title="Daniel Adler">Daniel Adler</a> under the supervision of <a href="/picsl-website/members/paul-yushkevich.html" title="Paul Yushkevich">Paul Yushkevich</a>. Please <a href="mailto:histolozee@gmail.com">contact us</a> to request a pre-distribution copy of the software. HistoloZee is under active development and the release (v.03) currently run under Mac OS X (&gt;10.6), with Linux and Windows versions forthcoming.</p>
+
+<h2 id="reconstruction-procedure">Reconstruction procedure</h2>
+
+<p>Basic reconstruction procedure for a stack of histology slides with accompanying reference imaging data (e.g. MRI):</p>
 
 <ol>
   <li>Slides from the tissue block are loaded and co-registered to each other to form an initial volumetric reconstruction. Sorting of slides and the setting of pixel size, slice thickness, and slice spacing are done during this stage.</li>
@@ -477,9 +493,9 @@ HistoloZee was developed by <a href="/picsl-website/members/daniel-adler.html" t
   <li>Each slide is transformed to better match its corresponding cut-plane in the MRI.</li>
 </ol>
 
-<p>… subsequent iteration of steps 2 &amp; 3. Histology and MRI image transformations are combined harmoniously by a mapping all data into global, physical coordinates.
- 
-<strong>Main features:</strong></p>
+<p>… subsequent iteration of steps 2 &amp; 3. Histology and MRI image transformations are combined harmoniously by a mapping all data into global, physical coordinates.</p>
+
+<h2 id="main-features">Main features</h2>
 
 <ul>
   <li>Formats: Loading of stacks of very large (&gt;1GB) microscopy slides, including support for most common life-sciences imaging formats (implemented using <a href="http://www.openslide.org">OpenSlide</a>) and loading of 3D reference image data (e.g. MRI) in NIfTI format</li>
@@ -493,22 +509,115 @@ HistoloZee was developed by <a href="/picsl-website/members/daniel-adler.html" t
   <li>Exporting: Reconstructed histology slide stacks can be exported to NIfTI format (or as an image series) at any resolution, while preserving the global coordinate mapping with MRI</li>
 </ul>
 
-<p><strong>Video tutorials:</strong>
-Please visit our YouTube Playlist: <strong><a href="https://www.youtube.com/playlist?list=PL68v8FP_IVlg2tCgJXrsO3UHve1q9wLjI">HistoloZee Tutorials</a></strong>
-Feel free to give us any feedback or suggestions on the tutorials and software!
- 
-<strong>Screenshots:</strong></p>
+<h2 id="video-tutorials">Video tutorials</h2>
 
-<dl>
-  <dt><img src="/picsl-website/images/wp/2014/04/HZee01-1024x577.jpg" alt="HistoloZee Screenshot 1"></dt>
-  <dd>Loading MRI reference image with reconstructed histology stack of human hippocampal formation.</dd>
-  <dt><img src="/picsl-website/images/wp/2014/04/HZee03-1024x577.jpg" alt="HistoloZee Screenshot 3"></dt>
-  <dd>Viewing histology slide with edge overlay atop MR reference image</dd>
-  <dt><img src="/picsl-website/images/wp/2014/04/HZee06-1024x577.jpg" alt="HistoloZee Screenshot 6"></dt>
-  <dd>High resolution detail of cells</dd>
-</dl>
+<p>Please visit our YouTube Playlist: <strong><a href="https://www.youtube.com/playlist?list=PL68v8FP_IVlg2tCgJXrsO3UHve1q9wLjI">HistoloZee Tutorials</a></strong>
+Feel free to give us any feedback or suggestions on the tutorials and software!</p>
 
-<p><img src="/picsl-website/images/wp/2014/04/HZee02-1024x577.jpg" alt="HZee02"> <img src="/picsl-website/images/wp/2014/04/HZee04-1024x577.jpg" alt="HZee04"> <img src="/picsl-website/images/wp/2014/04/HZee05-1024x577.jpg" alt="HZee05"> <img src="/picsl-website/images/wp/2014/04/HZee07-1024x577.jpg" alt="HZee07"> <img src="/picsl-website/images/wp/2014/04/HZee08-1024x577.jpg" alt="HZee08"> <img src="/picsl-website/images/wp/2014/04/HZee09-1024x577.jpg" alt="HZee09"> <img src="/picsl-website/images/wp/2014/04/HZee10-1024x577.jpg" alt="HZee10"></p>
+<h2 id="screenshots">Screenshots</h2>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 0 20px; align-items: start;">
+<figure class="figure">
+  <a href="/picsl-website/images/wp/2014/04/HZee03-1024x577.jpg" class="figure-image" aria-label="Viewing a histology slide with an edge overlay atop the MRI reference image.">
+    <img src="/picsl-website/images/wp/2014/04/HZee03-1024x577.jpg" style="
+        width: auto;
+        max-height: unset;
+      " alt="Viewing a histology slide with an edge overlay atop the MRI reference image." loading="lazy" onerror="this.src = '/picsl-website/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      Viewing a histology slide with an edge overlay atop the MRI reference image.
+
+    </figcaption>
+  
+</figure>
+
+<figure class="figure">
+  <a href="/picsl-website/images/wp/2014/04/HZee06-1024x577.jpg" class="figure-image" aria-label="High-resolution detail of cells.">
+    <img src="/picsl-website/images/wp/2014/04/HZee06-1024x577.jpg" style="
+        width: auto;
+        max-height: unset;
+      " alt="High-resolution detail of cells." loading="lazy" onerror="this.src = '/picsl-website/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      High-resolution detail of cells.
+
+    </figcaption>
+  
+</figure>
+
+<figure class="figure">
+  <a href="/picsl-website/images/wp/2014/04/HZee02-1024x577.jpg" class="figure-image" aria-label="figure link">
+    <img src="/picsl-website/images/wp/2014/04/HZee02-1024x577.jpg" style="
+        width: auto;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/picsl-website/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a href="/picsl-website/images/wp/2014/04/HZee04-1024x577.jpg" class="figure-image" aria-label="figure link">
+    <img src="/picsl-website/images/wp/2014/04/HZee04-1024x577.jpg" style="
+        width: auto;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/picsl-website/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a href="/picsl-website/images/wp/2014/04/HZee05-1024x577.jpg" class="figure-image" aria-label="figure link">
+    <img src="/picsl-website/images/wp/2014/04/HZee05-1024x577.jpg" style="
+        width: auto;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/picsl-website/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a href="/picsl-website/images/wp/2014/04/HZee07-1024x577.jpg" class="figure-image" aria-label="figure link">
+    <img src="/picsl-website/images/wp/2014/04/HZee07-1024x577.jpg" style="
+        width: auto;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/picsl-website/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a href="/picsl-website/images/wp/2014/04/HZee08-1024x577.jpg" class="figure-image" aria-label="figure link">
+    <img src="/picsl-website/images/wp/2014/04/HZee08-1024x577.jpg" style="
+        width: auto;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/picsl-website/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a href="/picsl-website/images/wp/2014/04/HZee09-1024x577.jpg" class="figure-image" aria-label="figure link">
+    <img src="/picsl-website/images/wp/2014/04/HZee09-1024x577.jpg" style="
+        width: auto;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/picsl-website/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+<figure class="figure">
+  <a href="/picsl-website/images/wp/2014/04/HZee10-1024x577.jpg" class="figure-image" aria-label="figure link">
+    <img src="/picsl-website/images/wp/2014/04/HZee10-1024x577.jpg" style="
+        width: auto;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/picsl-website/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+</div>
   </section>
 
 
