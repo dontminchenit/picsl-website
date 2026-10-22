@@ -66,10 +66,10 @@
 
   <meta name="author" content="jim-gee">
   <meta property="og:type" content="article">
-  <meta property="og:updated_time" content="2026-10-22T15:08:16+00:00">
+  <meta property="og:updated_time" content="2026-10-22T15:10:16+00:00">
   <meta property="article:published_time" content="2026-06-09T00:00:00+00:00">
-  <meta property="article:modified_time" content="2026-10-22T15:08:16+00:00">
-  <meta name="revised" content="2026-10-22T15:08:16+00:00">
+  <meta property="article:modified_time" content="2026-10-22T15:10:16+00:00">
+  <meta name="revised" content="2026-10-22T15:10:16+00:00">
 
 
 <script type="application/ld+json">
@@ -79,7 +79,7 @@
       "@type": "BlogPosting",
       "author": { "@type": "Person", "name": "FireANTs: fast, training-free image registration on the GPU" },
       "datePublished": "2026-06-09T00:00:00+00:00",
-      "dateModified": "2026-10-22T15:08:16+00:00",
+      "dateModified": "2026-10-22T15:10:16+00:00",
     
     "name": "FireANTs: fast, training-free image registration on the GPU",
     "description": "Penn Image Computing and Science Laboratory. The Penn Image Computing and Science Laboratory (PICSL) develops computational methods for biomedical image analysis, including segmentation, registration, morphometry and shape analysis.",
@@ -534,7 +534,7 @@
 
 <p>Image registration, the problem of finding a smooth deformation that brings one image into alignment with another, sits underneath almost every quantitative imaging study: building atlases, comparing subjects, tracking change over time, and fusing modalities. For more than a decade, <a href="/picsl-website/software/ants.html">ANTs</a>, developed at PICSL, has been a community standard for accurate diffeomorphic registration. Its main drawback is speed. Deep learning registration methods are fast at inference, but they need long training, use a lot of memory, and often fail when the data look different from what they were trained on.</p>
 
-<p>In a paper published in <em>Nature Communications</em>, Rohit Jena, Pratik Chaudhari and <a href="/picsl-website/members/jim-gee.html">Jim Gee</a> introduce <strong>FireANTs</strong>, a training-free, GPU-accelerated algorithm for multi-scale diffeomorphic image matching. FireANTs treats registration as an optimization on the space of diffeomorphisms and uses adaptive Riemannian optimization to deal with the poor conditioning that slows down classical methods.</p>
+<p>In a paper published in <em>Nature Communications</em>, <a href="/picsl-website/members/rohit-jena.html">Rohit Jena</a>, Pratik Chaudhari and <a href="/picsl-website/members/jim-gee.html">Jim Gee</a> introduce <strong>FireANTs</strong>, a training-free, GPU-accelerated algorithm for multi-scale diffeomorphic image matching. FireANTs treats registration as an optimization on the space of diffeomorphisms and uses adaptive Riemannian optimization to deal with the poor conditioning that slows down classical methods.</p>
 
 <p>Key results:</p>
 
